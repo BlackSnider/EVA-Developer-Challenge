@@ -94,7 +94,7 @@ Open the PHP code named index.php and change the variables given.
     case "call":
 	
 	   $productID = '<product id>';
-	   $customerName = 'GreenLantern';
+	   $customerName = '<customer name>';
 	   $comments = '<product comments>';
 	   
 	   // Customer Name	   
