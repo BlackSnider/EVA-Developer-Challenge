@@ -99,31 +99,25 @@ Open the PHP code named index.php and change the variables given.
 	   
 	   // Customer Name	   
 	   $productMetaData1 = array(
-							    "metafield" => array(
-												   
-														 "namespace"   =>  "custom",
-														 "key"         =>  "customer_name",
-														 "value"       =>  $customerName
-														
-													)
-							    );
-	
-						 
+				     "metafield" => array(
+							 "namespace"   =>  "custom",
+							 "key"         =>  "customer_name",
+							 "value"       =>  $customerName
+							 )
+				    );
+		 
 	   $myShopClass->insertComment($shop,$productID,$productMetaData1);
 	   
 	   // Customer comments
 	   $productMetaData2 = array(
 							    "metafield" => array(
-												   
-														 "namespace"   =>  "custom",
-														 "key"         =>  "comments",
-														 "value"       =>  $comments
-														
-													)
-							    );
+							                        "namespace"   =>  "custom",
+								                "key"         =>  "comments",
+										"value"       =>  $comments
+										)
+				     );
 	
-						  
-	
+					
 	   $myShopClass->insertComment($shop,$productID,$productMetaData2);
 	
 	break;
